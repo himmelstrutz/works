@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Live Resume :: Portfolio</title>
+     <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- Font awesome-->
+    <link rel="stylesheet" href="assets/vendors/@fortawesome/fontawesome-free/css/all.min.css">
+    <!-- My styles-->
+    <link rel="stylesheet" href="assets/css/live-resume.css">
+    <!-- favico-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">    
+    <!-- Form styles-->
+     <link href="assets/css/fcf.default.css" rel="stylesheet">
+    <link href="assets/css/fcf.default-custom.css" rel="stylesheet">
+
+    
+</head>
+<body>
+    <header>
+        <button class="btn ml-auto mr-3 ml-md-0 mr-md-auto"><img src="assets/images/logo.png" alt="share" class="btn-img1">
+            MARTIN RESLOW</button>
+        <nav class="collapsible-nav" id="collapsible-nav">
+            <a href="index.html" class="nav-link">HEM</a>
+            <a href="resume.html" class="nav-link">CV</a>
+            <a href="portfolio.html" class="nav-link">PORTFOLIO</a>
+            <a href="contact.html" class="nav-link active">KONTAKT</a>
+            <a href="https://www.linkedin.com/in/martin-reslow/" target="_blank" class="nav-link"><i class="fab fa-linkedin fa-lg"></i></a>
+        </nav>
+        <button class="btn btn-menu-toggle btn-white rounded-circle" data-toggle="collapsible-nav"
+            data-target="collapsible-nav"><img src="assets/images/hamburger.svg" alt="hamburger"></button>
+    </header>
+    <div class="content-wrapper">
+        
+        <main>
+            <div>
+                <div class="row">
+                <!-- Kontaktformuläret-->
+                 <div class="col-lg-6">
+                <h2 class="section-title">KONTAKTA MIG</h2>
+                <p class="mb-4">Kontakta oss om du vill prata om ett projekt, vårt arbete eller något annat.</p>
+                 <div class="fcf-form-wrap">
+        <div id="fcf-form">
+       <!-- form -->
+            <form id="ajaxForm" action="https://getform.io/f/dd516e3f-cc90-4edd-b507-def3915b6953" method="POST"  accept-charset="UTF-8" name="MR-form">
+
+                <div class="field">
+                    <label for="Name" class="label has-text-weight-normal">Namn</label>
+                    <div class="control">
+                        <input type="text" name="Name" id="Name" class="input is-full-width" maxlength="100"
+                            required="required">
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="Email" class="label has-text-weight-normal">E-mail</label>
+                    <div class="control">
+                        <input type="email" name="Email" id="Email" class="input is-full-width" maxlength="100"
+                             required="required">
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="Phone" class="label has-text-weight-normal">Telefon (frivilligt)</label>
+                    <div class="control">
+                        <input type="tel" name="Phone" id="Phone" class="input is-full-width" maxlength="30"
+                             >
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="Message" class="label has-text-weight-normal">Ditt meddelande</label>
+                    <div class="control">
+                        <textarea name="Message" id="Message" class="textarea" maxlength="3000" rows="5"
+                             required="required"></textarea>
+                    </div>
+                </div>
+                <!--<div id="fcf-status" class="fcf-status"></div>-->
+                <div class="success">Tack för ditt meddelande!</div> 
+                <div class="field">
+                    <div class="buttons">
+                        <button id="fcf-button" type="submit" class="button is-link is-medium is-fullwidth">Skicka meddelande</button>
+                    </div>
+                </div>
+               <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+               
+       </div>
+    </div>
+</div>
+
+<!-- Kartan-->
+<div class="col-lg-6">
+                <h5 class="section-title">HÄR FINNS JAG</h5>
+                <div class="map-wrapper embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2254.193802661395!2d12.991672215693693!3d55.59864068051237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a15411b105cb%3A0x4dcb42fae7d0e269!2sKastellgatan%209%2C%20211%2048%20Malm%C3%B6!5e0!3m2!1ssv!2sse!4v1609759292691!5m2!1ssv!2sse" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+            <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2021 Martin Reslow </p>
+  </footer>
+        </main>
+    </div>
+    <!-- scripts -->
+    <script src="assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="assets/vendors/@popperjs/core/dist/umd/popper-base.min.js"></script>
+    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/vendors/entry/jq.entry.min.js"></script>
+    <script src="assets/js/live-resume.js"></script>
+
+
+</body>
+</html>

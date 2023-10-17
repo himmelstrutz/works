@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="#da532c" name="msapplication-TileColor">
+  <meta content="#ffffff" name="theme-color">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="assets/vendors/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/css/live-resume.css" rel="stylesheet">
+  <!-- favico-->
+  <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+  <link href="favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+  <link href="favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+  <link href="safari-pinned-tab.svg" rel="mask-icon">
+  <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+.collapsible-nav.show {
+  width: 250px !important;
+
+}
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+  </style>
+  <title>Portfolio: Moffor å jau</title>
+</head>
+<body>
+  <header>
+     <a class="btn ml-auto mr-3 ml-md-0 mr-md-auto" href="index.html" role="button"><img src="assets/images/logo.png" alt="share" class="btn-img1">MARTIN RESLOW</a>
+    <nav class="collapsible-nav" id="collapsible-nav">
+      <a class="nav-link" href="index.html">HEM</a> 
+      <a class="nav-link active" href="resume.html">CV</a> 
+      <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+       <a class="nav-link" href="https://www.linkedin.com/in/martin-reslow/" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+    </nav><button class="btn btn-menu-toggle btn-white rounded-circle" data-target="collapsible-nav" data-toggle="collapsible-nav"><img alt="hamburger" src="assets/images/hamburger.svg"></button>
+  </header>
+  <div class="content-wrapper">
+    <main>
+      <div class="row">
+        <section class="clients-section">
+          <h6 class="section-subtitle">GRAPHIC DESIGN</h6>
+          <h2 class="section-title">MOFFOR Å JAU</h2>
+          <a class="btn btn-light" href="portfolio.html">
+          <i class="fas fa-arrow-left"></i> Tillbaka</a>
+          <div></div>
+        </section>
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h6>Ljudbok (dubbel-CD) av Lars Yngve, Grafisk form & illustrationer: Martin Reslow. Bokförlaget Håll Truten 2018.</h6>
+            <p class="lead">En "dubbel-sede" med historier om Nils-Ude, upplästa av Lars Yngve. Två spår gästas av Peps Persson och Björn Ranelid. Mustig humor på gammelskånska.<br>
+
+            <a class="btn btn-lg btn-primary" href="https://www.bokus.com/bok/9789163989025/moffor-a-jau/" role="button" target="_blank">Köp på Bokus!</a></p>
+            <h4>Lyssna på Nils-Udes Blueskatarr med Peps Persson</h4>
+          <p class="lead"><audio controls>
+  <source src="assets/audio/Blueskatarr.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio></p>
+          </div>
+          <div class="col-md-5">
+            <img alt="Moffor å jau" src="assets/images/moffor1.jpg" title="Moffor å jau" width="500" class="img-fluid"> 
+          </div>
+        </div>
+        <hr class="featurette-divider">
+      </div>
+      <h2>Ljudboken</h2>
+      <div class="row" data-target="#exampleModal" data-toggle="modal" id="gallery">
+        <div class="col-12 col-sm-6 col-lg-3"><img alt="Moffor 1" class="w-100" data-slide-to="0" data-target="#carouselExample" src="assets/images/moffor1.jpg"></div>
+        <div class="col-12 col-sm-6 col-lg-3"><img alt="Moffor 1" class="w-100" data-slide-to="0" data-target="#carouselExample" src="assets/images/moffor2.jpg"></div>
+        <div class="col-12 col-sm-6 col-lg-3"><img alt="Moffor 2" class="w-100" data-slide-to="1" data-target="#carouselExample" src="assets/images/moffor3.jpg"></div>
+        <div class="col-12 col-sm-6 col-lg-3"><img alt="First slide" class="w-100" data-slide-to="2" data-target="#carouselExample" src="assets/images/moffor4.jpg"></div>
+        <div class="col-12 col-sm-6 col-lg-3"><img alt="First slide" class="w-100" data-slide-to="3" data-target="#carouselExample" src="assets/images/moffor5.jpg"></div>
+        <div class="col-12 col-sm-6 col-lg-3"><img alt="First slide" class="w-100" data-slide-to="3" data-target="#carouselExample" src="assets/images/moffor6.jpg"></div>
+      </div>
+      <!-- Modal --><!-- This part is straight out of Bootstrap docs. Just a carousel inside a modal. -->
+      <div aria-hidden="true" class="modal fade" id="exampleModal" role="dialog" tabindex="-1">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+              <div class="carousel slide" data-ride="carousel" id="carouselExample">
+                <ol class="carousel-indicators">
+                  <li class="active" data-slide-to="0" data-target="#carouselExample"></li>
+                  <li data-slide-to="1" data-target="#carouselExample"></li>
+                  <li data-slide-to="2" data-target="#carouselExample"></li>
+                  <li data-slide-to="3" data-target="#carouselExample"></li>
+                  <li data-slide-to="4" data-target="#carouselExample"></li>
+                  <li data-slide-to="5" data-target="#carouselExample"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active"><img alt="First slide" class="d-block w-100" src="assets/images/moffor1.jpg"></div>
+                  <div class="carousel-item"><img alt="First slide" class="d-block w-100" src="assets/images/moffor2.jpg"></div>
+                  <div class="carousel-item"><img alt="Second slide" class="d-block w-100" src="assets/images/moffor3.jpg"></div>
+                  <div class="carousel-item"><img alt="Third slide" class="d-block w-100" src="assets/images/moffor4.jpg"></div>
+                  <div class="carousel-item"><img alt="Reklamaffisch 1" class="d-block w-100" src="assets/images/moffor5.jpg"></div>
+                  <div class="carousel-item"><img alt="Reklamaffisch 2" class="d-block w-100" src="assets/images/moffor6.jpg"></div>
+                </div><a class="carousel-control-prev" data-slide="prev" href="#carouselExample" role="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" data-slide="next" href="#carouselExample" role="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7">
+          
+        </div>
+      </div>
+      <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> Martin Reslow</p>
+      </footer>
+    </main>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'>
+  </script> 
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/popper.min.js'>
+  </script> 
+  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'>
+  </script> 
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+   
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js">
+  </script> 
+  <script src="assets/vendors/jquery/dist/jquery.min.js">
+  </script> 
+  <script src="assets/vendors/@popperjs/core/dist/umd/popper-base.min.js">
+  </script> 
+  <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js">
+  </script> 
+  <script src="assets/js/live-resume.js">
+  </script> 
+</body>
+</html>
